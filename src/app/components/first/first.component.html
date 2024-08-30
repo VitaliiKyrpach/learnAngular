@@ -1,0 +1,14 @@
+<h2>{{title}}</h2>
+<p (click)="isVisible = !isVisible">Toggle hidden text</p>
+@if(isVisible){
+    <p>
+        Hello! There is a hidden text. Congrats!
+    </p>
+}
+<button type="button" (click)="send()">send prop</button>
+<p (click)="add()">add new item</p>
+<ul>
+    <li *ngFor="let item of list; index as i">{{item}} with id {{i + 1}}</li>
+</ul>
+<input type="text" [(ngModel)]="type">
+<button type="button" (click)="sendType()">send type</button>

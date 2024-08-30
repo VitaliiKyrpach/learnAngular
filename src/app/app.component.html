@@ -1,0 +1,15 @@
+<nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/users">Users</a>
+    <a routerLink="/exchange">Exchange</a>
+</nav>
+@if(prop){
+    <h1 >{{prop}}</h1>
+} @else{
+    <h1>without prop</h1>
+}
+
+<!-- <app-first [data]="title" (outputArticle)="receiveArticle($event)" (outputType)="receiveType($event)"></app-first> -->
+<p>i'm typing this: {{typed}}</p>
+<!-- <app-users-list></app-users-list> -->
+<router-outlet></router-outlet>

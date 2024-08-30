@@ -1,0 +1,5 @@
+<ng-container *ngFor="let user of users$ | async">
+    <ul>
+        <app-user [userData]="user"></app-user>
+    </ul>
+</ng-container>
