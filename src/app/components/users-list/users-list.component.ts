@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 export class UsersListComponent implements OnInit {
   users$!: Observable<any>
   constructor(private http:HttpClient){}
+  
   ngOnInit(): void {
     this.users$ = this.http.get('https://reqres.in/api/users').pipe(
       map((data:any)=> {

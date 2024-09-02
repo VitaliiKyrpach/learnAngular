@@ -1,18 +1,21 @@
 <div>
     <div>
-        <input type="number" [(ngModel)]="first_currency" (keyup)="onChange($event)" id="firstInput">
-        <select name="first_currency" id="">
-            <option value="uah">UAH</option>
-            <option value="usd">USD</option>
-            <option value="eur">EUR</option>
-        </select>
-    </div>
-    <div>
-        <input type="number" [(ngModel)]="second_currency" (keyup)="onChange($event)" id="secondInput">
-        <select name="second_currency" id="">
+        <input type="number" [(ngModel)]="first_amount" (keyup)="onType($event)" id="firstInput">
+        <select name="first_currency" id="firstOption" (change)="onChange($event)">
             <option value="uah">UAH</option>
             <option value="usd" selected>USD</option>
             <option value="eur">EUR</option>
         </select>
     </div>
+    <div>
+        <input type="number" [(ngModel)]="second_amount" (keyup)="onType($event)" id="secondInput">
+        <select name="second_currency" id="secondOption" (change)="onChange($event)">
+            <option value="uah" selected>UAH</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+        </select>
+    </div>
+    <!-- @for(valuta of rate$ | async; track valuta.id){
+        <div></div>
+    } -->
 </div>
