@@ -3,10 +3,12 @@ import { inject, Injectable } from '@angular/core';
 import { map, Observable } from 'rxjs';
 // import { BehaviorSubject } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class ApiService {
+    // api = import.meta.env.NG_APP_API_KEY;
 
     constructor( private http: HttpClient){}
 
