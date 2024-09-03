@@ -2186,7 +2186,7 @@ License: "Apache-2.0"
 
 
 --------------------------------------------------------------------------------
-Package: domutils
+Package: css-select
 License: "BSD-2-Clause"
 
 Copyright (c) Felix Böhm
@@ -2202,7 +2202,7 @@ THIS IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRE
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
-Package: domelementtype
+Package: domutils
 License: "BSD-2-Clause"
 
 Copyright (c) Felix Böhm
@@ -2234,7 +2234,7 @@ THIS IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRE
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
-Package: entities
+Package: domelementtype
 License: "BSD-2-Clause"
 
 Copyright (c) Felix Böhm
@@ -2266,7 +2266,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------
-Package: css-select
+Package: entities
 License: "BSD-2-Clause"
 
 Copyright (c) Felix Böhm
@@ -2336,12 +2336,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 --------------------------------------------------------------------------------
-Package: @angular/animations
+Package: @angular/platform-server
 License: "MIT"
 
 
 --------------------------------------------------------------------------------
-Package: @angular/platform-server
+Package: @angular/animations
 License: "MIT"
 
 
