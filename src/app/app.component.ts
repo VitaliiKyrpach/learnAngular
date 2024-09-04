@@ -15,10 +15,10 @@ export interface User{
   standalone: true,
   imports: [RouterOutlet, CommonModule, FirstComponent, UsersListComponent, RouterLink],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
-  title: string = 'testAngular';
+export class AppComponent {
+  title = 'learnangular';
   prop?:any
   typed?: string
 
@@ -30,10 +30,4 @@ export class AppComponent implements OnInit {
     this.dataService.getSendProp.subscribe(prop => this.prop = prop);
     this.dataService.getSendType.subscribe(type => this.typed = type)
   }
-  // receiveArticle(article:string){
-  //   this.prop = article
-  // }
-  // receiveType(type:string){
-  //   this.typed = type
-  // }
 }
