@@ -1,5 +1,10 @@
-<ng-container *ngFor="let user of users$ | async">
+<!-- <ng-container *ngFor="let user of users$ | async">
     <ul>
         <app-user [userData]="user"></app-user>
     </ul>
-</ng-container>
+</ng-container> -->
+<ul class="usersList">
+    @for(user of users$ | async; track user.id){
+        <app-user [userData]="user"></app-user>
+    }
+</ul>
